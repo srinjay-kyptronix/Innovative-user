@@ -9,10 +9,10 @@ import gallery4 from "../assets/gallery-4.png";
 
 
 function GalleryMain() {
-  const totalNoData = 10;
+  // const totalNoData = 10;
 
   const [clicked, setClicked] = useState("Engineering");
-  const [images, setImages] = useState([gallery1, gallery2, gallery3, gallery4,gallery1, gallery2, gallery3, gallery4,gallery1, gallery2]);
+  // const [images, setImages] = useState([gallery1, gallery2, gallery3, gallery4,gallery1, gallery2, gallery3, gallery4,gallery1, gallery2]);
 
   const handleClick = (clickedItem) => {
     setClicked(clickedItem);
